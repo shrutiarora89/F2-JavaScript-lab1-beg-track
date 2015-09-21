@@ -45,8 +45,8 @@ function assert(expression, failureMessage) {
  That will help later when you run jscs.
 */
 
-assert(1 === 1, '1 equals 1 - this assert will pass.');
-assert(1 === 2, 'this is an example of a failing assertion. 1 does not equal 2.');
+//assert(1 === 1, '1 equals 1 - this assert will pass.');
+//assert(1 === 2, 'this is an example of a failing assertion. 1 does not equal 2.');
 
 /* ===========================================================================
 ------------------Assertions (8 points total)---------------------------------
@@ -60,8 +60,10 @@ assert(1 === 2, 'this is an example of a failing assertion. 1 does not equal 2.'
 */
 
 //your code goes here
-assert('leopard' === 'leopard', 'leopard equals leopard - this assert will pass.');
-assert('tiger' === 'dolphin', 'this is an example of a failing assertion. tiger is not equal to dolphin.');
+var numTigerLegs = 4;
+var numElephentLegs = 2;
+assert(numTigerLegs === 4, 'tiger has 4 legs');
+assert(numElephentLegs === 4, 'elephant has 4 legs');
 /* ========================================================================
 ----------------- Meerkats (20 points total)-------------------------------
 ===========================================================================
